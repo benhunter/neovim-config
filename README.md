@@ -2,6 +2,20 @@
 
 Neovim config
 
+# LSP
+
+```
+:LspInfo
+:checkhealth vim.lsp
+```
+
+# Troubleshooting
+
+```
+rm -rf ~/.local/share/nvim
+rm -rf ~/.cache/nvim
+```
+
 # References
 
 - [lazy.nvim](https://lazy.folke.io/) docs
